@@ -1,0 +1,276 @@
+.portfolio{
+	width: 100%;
+	height: auto;
+	box-sizing: bolder-box;
+}
+
+.container{
+	width: auto;
+	height: auto;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.port-head{
+	width: 100%;
+	height: 9%;
+	text-align: center;
+	box-sizing: bolder-box;
+	line-height: 20px;
+}
+
+.port-head p{
+	font-family: sans-sarif;
+	font-size: 16px;
+	color: blue;
+}
+
+.port-head h1{
+	font-family: cursive;
+	font-size: 45px;
+	color: #1e1532;
+}
+
+.port-allbox{
+	width: 100%;
+	height: 5%;
+	display: flex;
+	box-sizing: bolder-box;
+	margin-left: 500px;
+	margin-bottom: 20px;
+}
+
+.box1{
+	width: 60px;
+	height: 28px;
+	border: solid 2px #3F51B5;  
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	color: blue;
+	padding-top: 4px;
+	margin-right: 20px;
+	font-size: 18px;
+	font-family: cursive;
+	transition: 0.5s;
+	
+}
+
+.box2{
+	width: 60px;
+	height: 28px;
+/*	border: solid 2px #3F51B5;*/ 
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 4px;
+	margin-right: 20px;
+	font-family: cursive;
+	transition: 0.5s;
+	
+}
+
+
+.box3{
+	width: 60px;
+	height: 28px;
+/*	border: solid 2px #3F51B5;*/ 
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 4px;
+	margin-right: 20px;
+	font-size: 18px;
+	font-family: cursive;
+	transition: 0.5s;
+}
+
+.box4{
+	width: 60px;
+	height: 28px;
+/*	border: solid 2px #3F51B5;*/ 
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 4px;
+	margin-right: 20px;
+	font-family: cursive;
+	transition: 0.5s;
+}
+
+
+
+.portfolio-flex1{
+	width: 100%;
+	height: 33%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	box-sizing: bolder-box;
+}
+
+.img1{
+	width: 33.33%;
+	height: 400px;
+	background-image:  url(../img/portfolio-1.jpg);
+	background-size: cover;
+	margin-right: 15px;
+	background-position: center;
+	margin-left: 10px;
+	transition: 0.5s;
+}
+
+.img2{
+	width: 33.33%;
+	height: auto;
+	background-image:  url(../img/portfolio-2.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-right: 15px;
+	transition: 0.5s;
+
+}
+
+.img3{
+	width: 33.33%;
+	height: auto;
+	background-image:  url(../img/portfolio-3.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: 0.5s;
+}
+
+
+
+.portfolio-flex2{
+	width: 100%;
+	height: 33%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	box-sizing: bolder-box;
+}
+
+.img4{
+	width: 33.33%;
+	height: 400px;
+	background-image:  url(../img/portfolio-4.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.img5{
+	width: 33.33%;
+	height: auto;
+	background-image:  url(../img/portfolio-5.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.img6{
+	width: 33.33%;
+	height: auto;
+	background-image:  url(../img/portfolio-6.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: 0.5s;
+}
+
+
+.portfolio-flex3{
+	width: 100%;
+	height: 33%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	box-sizing: bolder-box;
+}
+
+.img7{
+	width: 33.33%;
+	height: 400px;
+	background-image:  url(../img/portfolio-7.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.img8{
+	width: 33.33%;
+	height: auto;
+	background-image:  url(../img/portfolio-8.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-right: 15px;
+	transition: 0.5s;
+}
+
+.img9{
+	width: 33.33%;
+	height: auto;
+	background-image:  url(../img/portfolio-9.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: 0.5s;
+}
+
+.box2:hover{
+	border: solid 2px #3F51B5; 
+	color: blue;
+	
+}
+
+.box3:hover{
+	border: solid 2px #3F51B5; 
+	color: blue;
+	
+}
+
+.box4:hover{
+	border: solid 2px #3F51B5; 
+	color: blue;
+	
+}
+
+.img1:hover{
+	transform: scale(1.1);
+}
+
+.img2:hover{
+	transform: scale(1.1);
+}
+
+.img3:hover{
+	transform: scale(1.1);
+}
+
+.img4:hover{
+	transform: scale(1.1);
+}
+
+.img5:hover{
+	transform: scale(1.1);
+}
+
+.img6:hover{
+	transform: scale(1.1);
+}
+
+.img7:hover{
+	transform: scale(1.1);
+}
+
+.img8:hover{
+	transform: scale(1.1);
+}
+
+.img9:hover{
+	transform: scale(1.1);
+	overflow: hidden;
+}
+
