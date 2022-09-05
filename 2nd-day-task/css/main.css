@@ -168,6 +168,10 @@
 	
 }
 
+.client-1 img:hover{
+	filter: brightness(1);
+}
+
 .client-2 img {
 	width: 25%;
 	padding-bottom: 40px;
